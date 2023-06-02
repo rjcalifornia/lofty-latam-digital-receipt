@@ -11,7 +11,7 @@ export default {
   async mounted() {
     let id = this.$route.params.id;
     try {
-      let response = await axios.get('http://127.0.0.1:8000/api/v1/receipt/' + id + '/view')
+      let response = await axios.get('https://desarrollos.a2hosted.com/tenant-management-backend/public/api/v1/receipt/' + id + '/view')
 
       this.receipt = response.data
 
@@ -59,7 +59,7 @@ export default {
               <v-col cols="auto" class="d-flex justify-center align-center">
                 <v-btn size="x-large"
                  color="arches"
-                 :href="'http://127.0.0.1:8000/api/v1/receipt/' + receipt.uuid + '/print'"
+                 :href="'https://desarrollos.a2hosted.com/tenant-management-backend/public/api/v1/receipt/' + receipt.uuid + '/print'"
                  target="_blank" download>
                  Descargar comprobante
                 </v-btn>
