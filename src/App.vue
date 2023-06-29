@@ -8,9 +8,9 @@
       <v-spacer></v-spacer>
        
     </v-toolbar>
-      <v-content>
+      <v-main>
       <router-view/>
-    </v-content>
+    </v-main>
      
   </v-app>
 </template>
