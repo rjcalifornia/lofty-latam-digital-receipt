@@ -67,7 +67,7 @@ export default {
                 <br />
                 <v-col cols="auto" class="d-flex justify-center align-center">
                   <v-btn size="x-large" color="arches"
-                    :href="'https://desarrollos.a2hosted.com/tenant-management-backend/public/api/v1/receipt/' + receipt.uuid + '/print'"
+                    :href="url + receipt.uuid + '/print'"
                     target="_blank" download>
                     Descargar comprobante
                   </v-btn>
