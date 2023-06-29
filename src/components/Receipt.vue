@@ -39,7 +39,7 @@ export default {
                 <v-img :src="botright_vite" height="200px" contain></v-img>
                 <br />
                 <v-card-title>
-                  testing
+                 
                   Comprobante de pago
 
                 </v-card-title>
