@@ -77,7 +77,7 @@ export default {
               <v-card class="mx-auto" max-width="480" v-else>
                 <v-img :src="notfound_vite" height="200px" contain></v-img>
                 <v-card-title class="text-center">
-                  Comprobante de pago no encontrado
+                  Comprobante de pago <br> no encontrado
 
                 </v-card-title>
               </v-card>
