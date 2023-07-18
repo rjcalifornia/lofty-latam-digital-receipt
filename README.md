@@ -1,29 +1,20 @@
-# lofty_receipt
+# Lofty - Consulta de pagos
 
-This template should help get you started developing with Vue 3 in Vite.
+### Prerequisitos Ambiente de desarrollo
+ 
+* Node 18.8.0
+* Vue 3.2.47
+* Vuetify 3.3.7
+* Vite 4.3.4
+* Visual Studio Code
 
-## Recommended IDE Setup
+## Instalación
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+* Copiar archivo ``` .env.example ``` como ``` .env ``` y configurar el endpoint
+* Con la consola de comandos (CLI), ejecutar el comando ``` npm install ``` para instalar todos los paquetes requeridos
+* Una vez se haya terminado de instalar las librerias, ya podra ejecutar desde la consola de comandos con el comando ``` npm run dev ```
 
-## Customize configuration
+## Ambiente de producción
+* Con la consola de comandos (CLI), ejecutar el comando ``` npm run build ``` para generar el compilado que se subirá al servidor
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
 
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
