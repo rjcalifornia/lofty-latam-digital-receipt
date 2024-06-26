@@ -24,6 +24,7 @@ const loftTheme = {
     success: '#4CAF50',
     warning: '#FB8C00',
     arches: '#FC642D',
+    fty: '#ff405c',
   },
 }
 const vuetify = createVuetify({
