@@ -74,7 +74,7 @@ export default {
                 <br />
                 <v-col cols="auto" class="d-flex justify-center align-center">
                   <v-btn size="x-large" color="fty"
-                    :href="url + receipt.uuid + '/print'"
+                    :href="url + 'v1/receipt/'  + receipt.uuid + '/print'"
                     target="_blank" download>
                     Descargar comprobante
                   </v-btn>
