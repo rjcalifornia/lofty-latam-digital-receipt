@@ -90,7 +90,7 @@ export default {
                 <v-img :src="notfound_vite" height="200px" contain></v-img>
                 
                 <p class="ml-6 text-h5 text-center mt-8 mb-8">
-                  Comprobante de pago no encontrado
+                  Comprobante de pago <br> no ha sido encontrado
               
             </p>
                  
