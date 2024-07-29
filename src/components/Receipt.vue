@@ -32,7 +32,7 @@ export default {
           <v-sheet class="pa-2">
 
             <div class="text-center" v-if="lineChartIsLoaded == false">
-              <v-progress-circular :size="95" :width="7" color="pink" indeterminate></v-progress-circular>
+              <v-progress-circular :size="95" :width="7" color="fty" indeterminate></v-progress-circular>
             </div>
             <div v-if="lineChartIsLoaded">
               <v-card class="mx-auto" max-width="480" v-if="Object.keys(receipt).length > 0">
