@@ -11,7 +11,7 @@
     "@mdi/font": "5.9.55",
     "axios": "^1.4.0",
     "roboto-fontface": "*",
-    "vue": "^3.2.47",
+    "vue": "^3.3.6",
     "vue-router": "^4.2.0",
     "vuetify": "^3.2.3",
     "webfontloader": "^1.0.0"
